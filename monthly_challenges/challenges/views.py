@@ -15,7 +15,7 @@ monthly_challenges = {
     'september': 'Study Django for 20 min every day !',
     'october': 'Eat no meat for the entire month !',
     'november': 'Walk for at least 20 minuts avery day !',
-    'december': 'Study Django for 20 min every day !'
+    'december': None
 }
 
 # Create your views here.
