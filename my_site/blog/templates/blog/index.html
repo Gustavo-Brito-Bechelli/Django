@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+    My Blog
+{% endblock %}
+
+{% block css_file %}
+    <link rel="stylesheet" href="{% static "blog/index.css" %}">
+{% endblock %}
+
+{% block content %}
+    <header id="main-navigation">
+        <h1>
+            <a href="">Gus' Blog</a>
+        </h1>
+        <nav>
+            <a href="">All Posts</a>
+        </nav>
+    </header>
+
+    <section id="welcome">
+        <header>
+            <img src="" alt="Gustavo - The Author of This Blog"/>
+            <h2>GUSTAVO'S BLOG</h2>
+        </header>
+        <p>Hi, I am Gustavo. I'd like to blog about what I am studing!</p>
+    </section>
+
+    <section id="lastest-post">
+        <h2>My Lastest Thoughts</h2>
+
+        <ul>
+            <li>
+                <article class="post">
+                    <a href="">
+                        <img src="" alt="Mountain Hiking"/>
+                        <div class="post_content">
+                            <h3>Mountain Hiking</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et dolore 
+                                magna aliqua.</p>
+                        </div>
+                    </a>
+                </article>
+            </li>
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>What I Do</h2>
+        <p>Eu gosto de programar, gosto de jogar video games e explorar novas tecnologias</p>
+        <p>Meu objetivo é continuar crescendo como desenvolverodr</p>
+    </section>
+{% endblock %}
