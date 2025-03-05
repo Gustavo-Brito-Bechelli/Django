@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+    This Post Title
+{% endblock %}
+
+{% block css_file %}
+    <link rel="stylesheet" href="{% static "blog/post-detail.css" %}">
+{% endblock %}
+
+{% block content %}
+    <section id+"summary">
+        <article>
+            <img src="{% static "blog/images/mountains.jpg" %}" alt="Post Title">
+            <address>By Gustavo</address>
+            <div>
+                Last updated on <time>March 05th</time>
+            </div>
+        </article>
+    </section>
+
+    <main>
+        <p>
+            lorenLorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore 
+            magna aliqua.
+        </p>
+        <p>
+            lorenLorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore 
+            magna aliqua.
+        </p>
+        <p>
+            lorenLorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore 
+            magna aliqua.
+        </p>
+        <p>
+            lorenLorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore 
+            magna aliqua.
+        </p>
+    </main>
+{% endblock %}
